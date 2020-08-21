@@ -54,18 +54,18 @@
 
     }
 
-    function isPhone($var){
-      return preg_match("/^[0-9 ]*$/", $var);
+    function isPhone($phone){
+      return preg_match("/^[0-9 ]*$/", $phone);
     }
 
-    function isEmail($var){
-        return filter_var($var, FILTER_VALIDATE_EMAIL);
+    function isEmail($email){
+        return filter_var($email, FILTER_VALIDATE_EMAIL);
     }
 
-    function verifyInput($var){
-      $var = trim($var);
-      $var = stripslashes($var);
-      $var = htmlspecialchars($var);
-      return $var;
+    function test_input($data){
+      $data = trim($data);
+      $data = stripslashes($data);
+      $data = htmlspecialchars($data);
+      return $data;
     }
 ?>

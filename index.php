@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr-FR">
   <head>
+  <title>Contactez-moi !</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -14,12 +15,11 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <script src="js/script.js"></script>
     <script
       src="https://kit.fontawesome.com/d9d02b30db.js"
       crossorigin="anonymous"
     ></script>
-    <title>Contactez-moi !</title>
+    <script src="js/script.js"></script>
   </head>
 
   <body>
@@ -52,10 +52,8 @@
                   type="text"
                   id="name"
                   name="name"
-                  
                   class="form-control"
-                  placeholder="Votre nom"
-                  
+                  placeholder="Votre nom"                 
                 />
                 <p class="comments"></p>
               </div>
@@ -66,10 +64,8 @@
                   type="email"
                   id="email"
                   name="email"
-                  
                   class="form-control"
                   placeholder="Votre email"
-                  
                 />
                 <p class="comments"></p>
               </div>
@@ -82,7 +78,6 @@
                   name="phone"
                   class="form-control"
                   placeholder="Votre téléphone"
-                  
                 />
                 <p class="comments"></p>
               </div>
@@ -96,7 +91,6 @@
                   placeholder="Votre message"
                   cols="30"
                   rows="4"
-                  
                 ></textarea>
                 <p class="comments"></p>
               </div>
